@@ -15,18 +15,20 @@
     height: auto;
     object-fit:contain;
     text-align: center;
+    padding-bottom: 25px;
 }
 body{
     background-color: grey;
     text-align: center;
-
 }
 .encabezado{
     text-align: left;
-    padding: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-indent: 2%;
     width: 50%;
     margin: auto;
-    font-size: 8pt;
+    font-size: 50%;
     font-family: 'Arial';
     background-color: white;
 }
