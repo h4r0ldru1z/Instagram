@@ -1,12 +1,15 @@
-#amor{
+.foto{
     width: 200px;
-    height: 300px;
-    object-fit: contain;
+    height: auto;
+    object-fit:contain;
+    text-align: center;
+    font-size: 15pt;
+    font-style: "Comic Sans";
 }
 body{
     background-color: grey;
     text-align: center;
 }
-.contenido{
+.contenido *{
     display: flexbox;
 }
