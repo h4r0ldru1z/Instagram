@@ -1,15 +1,32 @@
+.contenido *{
+    display: flexbox;
+    margin: auto;
+    width: 50%;
+}
+.amor{
+    display: block;
+    text-align: center;
+    object-fit: contain;
+    height: auto;
+    margin: auto;
+    width: 50%;
+}
 .foto{
-    width: 200px;
     height: auto;
     object-fit:contain;
     text-align: center;
-    font-size: 15pt;
-    font-style: "Comic Sans";
 }
 body{
     background-color: grey;
     text-align: center;
+
 }
-.contenido *{
-    display: flexbox;
+.encabezado{
+    text-align: left;
+    padding: 5px;
+    width: 50%;
+    margin: auto;
+    font-size: 8pt;
+    font-family: 'Arial';
+    background-color: white;
 }
