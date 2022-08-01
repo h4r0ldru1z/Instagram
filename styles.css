@@ -1,4 +1,10 @@
+h1{
+    background-color: white;
+    text-indent: 25%;
+    text-align: left;
+}
 .contenido *{
+    counter-reset: section;
     display: flexbox;
     margin: auto;
     width: 50%;
@@ -9,23 +15,27 @@
     object-fit: contain;
     height: auto;
     margin: auto;
-    width: 50%;
+    width: 25%;
+    border: 1px solid black;
 }
 .foto{
+    display: flex;
+    justify-content: space-between;
     height: auto;
     object-fit:contain;
     text-align: center;
-    padding-bottom: 25px;
+    padding-top: 25px;
+    width: 25%;
 }
 body{
-    background-color: grey;
+    background-color: lightgrey;
     text-align: center;
 }
 .encabezado{
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
-    text-indent: 2%;
+    padding-left: 2%;
     width: 50%;
     margin: auto;
     font-size: 50%;
@@ -33,13 +43,34 @@ body{
     background-color: white;
 }
 .indice{
-    float: right;
-    display: inline-block;
-    position: absolute;
-    top: -15px;
     text-align: right;
-    text-indent: 2%;
-    width: 5%;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 50%;
+    margin: auto;
+    font-size: 50%;
+    font-family: 'Arial';
+    background-color: white;
+    color: grey ;
+    padding-right: 2%;
+}
+
+.foto2{
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
+    height: auto;
+    object-fit:contain;
+
+    padding-top: -25px;
+    width: 25%;
+}
+.pie{
+    text-align: left;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 2%;
+    width: 100%;
     margin: auto;
     font-size: 50%;
     font-family: 'Arial';
