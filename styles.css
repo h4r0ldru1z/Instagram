@@ -1,7 +1,7 @@
 h1{
     background-color: white;
-    text-indent: 25%;
-    text-align: left;
+
+    text-align:center;
 }
 .contenido *{
     counter-reset: section;
@@ -71,7 +71,8 @@ body{
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
-    padding-left: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
     width: 100%;
     margin: auto;
     font-size: 50%;
