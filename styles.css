@@ -50,18 +50,18 @@ body{
     padding-right: 2%;
 }
 .piefoto{
-    display:flex;
-    justify-content:space-between;
+    flex-flow: row;
+    display: flex;
     width: 300px;
     height: auto;
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: small;
- 
 }
 .pie{
-    flex-basis: 95%;
-}
-.strong{
-    flex-basis: 5%;
+    font-size: 70%;
+    margin-top: 0em;
+    padding-left: 15px;
+    text-align: left;
+    flex-wrap: wrap;
+    padding-right: 2%;
 }
