@@ -4,18 +4,15 @@ h1{
     text-align:center;
 }
 .contenido *{
-    counter-reset: section;
-    display: flexbox;
+    display: flex;
     margin: auto;
-    width: 50%;
+    width: 300px;
+    height: auto;
 }
 .amor{
-    display: block;
     text-align: center;
     object-fit: contain;
-    height: auto;
     margin: auto;
-    width: 25%;
     border: 1px solid black;
 }
 .foto{
@@ -25,7 +22,6 @@ h1{
     object-fit:contain;
     text-align: center;
     padding-top: 25px;
-    width: 25%;
 }
 body{
     background-color: lightgrey;
@@ -37,9 +33,8 @@ body{
     padding-top: 5px;
     padding-bottom: 5px;
     padding-left: 2%;
-    width: 50%;
     margin: auto;
-    font-size: 50%;
+    font-size: 80%;
     font-family: 'Arial';
     background-color: white;
 }
@@ -48,34 +43,26 @@ body{
     text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
-    width: 50%;
     margin: auto;
-    font-size: 50%;
+    font-size: 80%;
     font-family: 'Arial';
     background-color: white;
     color: grey ;
     padding-right: 2%;
 }
-
-.foto2{
-    display: flex;
-    text-align: left;
-    justify-content: space-between;
+.piefoto{
+    display:flex;
+    justify-content:space-between;
+    width: 300px;
     height: auto;
-    object-fit:contain;
-
-    padding-top: -25px;
-    width: 25%;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: small;
+ 
 }
 .pie{
-    text-align: left;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    padding-left: 5%;
-    padding-right: 5%;
-    width: 100%;
-    margin: auto;
-    font-size: 50%;
-    font-family: 'Arial';
-    background-color: white;
+    flex-basis: 95%;
+}
+.strong{
+    flex-basis: 5%;
 }
