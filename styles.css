@@ -32,3 +32,16 @@ body{
     font-family: 'Arial';
     background-color: white;
 }
+.indice{
+    float: right;
+    display: inline-block;
+    position: absolute;
+    top: -15px;
+    text-align: right;
+    text-indent: 2%;
+    width: 5%;
+    margin: auto;
+    font-size: 50%;
+    font-family: 'Arial';
+    background-color: white;
+}
