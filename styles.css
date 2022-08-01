@@ -1,0 +1,12 @@
+#amor{
+    width: 200px;
+    height: 300px;
+    object-fit: contain;
+}
+body{
+    background-color: grey;
+    text-align: center;
+}
+.contenido{
+    display: flexbox;
+}
