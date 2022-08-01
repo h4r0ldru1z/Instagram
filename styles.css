@@ -32,6 +32,7 @@ body{
     text-align: center;
 }
 .encabezado{
+    flex-basis: 95%;
     text-align: left;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -43,6 +44,7 @@ body{
     background-color: white;
 }
 .indice{
+    flex-basis: 5%;
     text-align: right;
     padding-top: 5px;
     padding-bottom: 5px;
